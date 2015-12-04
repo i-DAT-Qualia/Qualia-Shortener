@@ -2,7 +2,7 @@
   "name": "qualia-shortener",
   "version": "0.0.1",
   "description": "A simple node applicaton for shortening links",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test"
   },
@@ -10,12 +10,14 @@
     "type": "git",
     "url": "https://github.com/i-DAT-Qualia/Qualia-Shortener"
   },
-  "contributors": [
-    {"name": "Christopher Hunt"},
-  ],
   "keywords": [
     "shortener"
   ],
+  "dependencies": {
+    "mongoose": "4.2.9",
+    "randomstring": "1.1.3",
+    "nopt": "3.0.6"
+  },
   "author": "Christopher Hunt, i-DAT with Plymouth University",
   "license": "GPL-3.0"
 }
