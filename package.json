@@ -1,6 +1,6 @@
 {
   "name": "qualia-shortener",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple node applicaton for shortening links",
   "main": "server.js",
   "scripts": {
